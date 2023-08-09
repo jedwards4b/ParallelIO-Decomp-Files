@@ -8,7 +8,7 @@
 #PBS  -l select=16:ncpus=128:mpiprocs=128:ompthreads=1
 #PBS  -q main
 #PBS  -l walltime=00:30:00
-#PBS  -A NDRS0003
+##PBS  -A NDRS0003
 import os
 import glob
 if os.environ.get("PBS_O_WORKDIR"):
