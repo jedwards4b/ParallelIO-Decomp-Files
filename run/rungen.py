@@ -28,7 +28,7 @@ with open("pioperf.nl","w") as fd:
     fd.write(" pio_typenames = 'pnetcdf', 'pnetcdf'\n");
     fd.write(" rearrangers = 2\n");
     fd.write(" nframes = 1\n");
-    fd.write(" nvars = 16\n");
+    fd.write(" nvars = 64\n");
     fd.write(" niotasks = 16\n");
     fd.write(" /\n")
 
